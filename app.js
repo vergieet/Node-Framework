@@ -3,8 +3,8 @@ const fs = require('fs')
 const route = require('./config/route.json')
 const app = express()
 
-app.get('/:action', function (req, res) {
-  res.send('Hello World!' + route[req.params['action']])
+app.get('*', function (req, res) {
+  res.send('Hello World!' + route[req.url])
 })
 
 app.listen(3000, function () {

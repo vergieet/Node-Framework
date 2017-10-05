@@ -1,5 +1,7 @@
-Basic Info:
-Vergin web framework using pug template engine
+#Basic Info:
+ Vergin web framework using pug template engine
 
-Config:
- Route => config/route.js
+#Config:
+ Global   => Basic configuration of apps (config/global.js)
+ Route    => Route your apps here (config/route.js)
+ Database => Database config (config/database.js)
