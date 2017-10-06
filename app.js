@@ -1,10 +1,13 @@
 const express = require('express')
 const fs = require('fs')
-const route = require('./config/route.json')
+const globalConfig = require('./config/global.json')
+const route = require('./' + globalConfig['file']['route'])
 const app = express()
 
 app.get('*', function (req, res) {
-  res.send('Hello World!' + route[req.url])
+  if(!route[req.url])res.send('Hello 404!')
+  pageConfig = require('./' + globalConfig['dir']['page-config'] + route[req.url])
+  res.send(pageConfig)
 })
 
 app.listen(3000, function () {

@@ -1,5 +1,17 @@
 {
   "name" : "Vergin Sample",
   "description" : "Sample for vergin framework",
-  "env" : "dev"
+  "env" : "dev",
+  "dir":{
+    "assets" : "assets/",
+    "js" : "assets/js/",
+    "css" : "assets/css/",
+    "config-js" : "config/js/",
+    "config-css" : "config/css/",
+    "build" : "build/",
+    "page-config" : "config/pages/"
+  },
+  "file":{
+    "route" : "config/route.json"
+  }
 }

@@ -1,0 +1,10 @@
+{
+  "name" : "home",
+  "title" : "Home",
+  "layout" : "default",
+  "seo" : {
+      "title" : "POS"
+  },
+  "js-file" : "default-js-file",
+  "css-file" : "default-css-file"
+}

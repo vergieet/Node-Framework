@@ -1,4 +1,5 @@
 {
+  "/":"home",
   "/home":"home",
   "/faq":"home",
   "/about/us":"home"
