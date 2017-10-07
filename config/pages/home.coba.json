@@ -3,8 +3,8 @@
   "title" : "Home",
   "layout" : "default",
   "seo" : {
-      "title" : "POS"
+      "title" : "POaSa"
   },
-  "js-file" : "default-js-file",
+  "js-file" : "default-js-file2",
   "css-file" : "default-css-file"
 }

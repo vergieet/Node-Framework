@@ -6,10 +6,10 @@
     "assets" : "assets/",
     "js" : "assets/js/",
     "css" : "assets/css/",
+    "build" : "build/",
     "config-js" : "config/js/",
     "config-css" : "config/css/",
-    "build" : "build/",
-    "page-config" : "config/pages/"
+    "config-page" : "config/pages/"
   },
   "file":{
     "route" : "config/route.json"

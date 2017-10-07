@@ -3,7 +3,7 @@
   "title" : "Home",
   "layout" : "default",
   "seo" : {
-      "title" : "POS"
+      "title" : "POeS"
   },
   "js-file" : "default-js-file",
   "css-file" : "default-css-file"
